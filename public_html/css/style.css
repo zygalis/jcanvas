@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffff;
+}
+#wrapper {
+    width: 1220px;
+    margin: 0 auto;
+}
+h1 {
+    width: 1220px;
+    text-align: center;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+canvas {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+#toolbox {
+    width: 1000px;
+    padding: 2px;
+    background-color: #ffffff;
+}
+label {
+    width: 75px;
+}
+.color {
+    opacity: 0.5;
+    margin: 2px;
+}
+#black {
+    background-color: #000000;
+    width: 25px;
+}
+#black {
+    background-color: #000000;
+    width: 25px;
+}#red {
+    background-color: red;
+    width: 25px;
+}#green {
+    background-color: green;
+    width: 25px;
+}#blue {
+    background-color: blue;
+    width: 25px;
+}#yellow {
+    background-color: yellow;
+    width: 25px;
+}#brown{
+    background-color: brown;
+    width: 25px;
+}#pink {
+    background-color: pink;
+    width: 25px;
+}#purple {
+    background-color: purple;
+    width: 25px;
+}
+#white {
+    background-color: #ffffff;
+    width: 25px;
+}
+#s,#i,#a {
+    color: blue;
+}
+
+#k, #p {
+    color: red; 
+}
+#e, #c {
+    color: black;
+}
+#t {
+    color: pink;
+}
+#h {
+    color: brown;
+}
+#n #p2 {
+    color: green;
+}
+#g {
+    color: purple;
+}

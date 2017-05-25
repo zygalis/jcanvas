@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>jQuery Skecthing App With jCanvas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/jcanvas.min.js"></script>
+        <script src="js/drawing.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>
+                <span id="s">S </span><span id="k">k </span><span id="e">e </span><span id="t">t </span><span id="c">c </span><span id="h">h </span><span id="i">i </span><span id="n">n </span><span id="g">g </span><span id="a">A </span><span id="p">p </span><span id="p2">p </span>
+            </h1>
+            <div id="toolbox">
+                <input id="clear" type="button" value="Clear">
+                <input id="undo" type="button" value="Undo">
+                <label>Size:</label>
+                <select id="width">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <input class="color" id="black" type="button" value="">
+                <input class="color" id="red" type="button" value="">
+                <input class="color" id="green" type="button" value="">
+                <input class="color" id="blue" type="button" value="">
+                <input class="color" id="yellow" type="button" value="">
+                <input class="color" id="brown" type="button" value="">
+                <input class="color" id="pink" type="button" value="">
+                <input class="color" id="purple" type="button" value="">
+                <input class="color" id="white" type="button" value="">
+                <label id="coordinates">x,y</label>
+             </div>
+            <canvas width="1200" height="600"></canvas>
+        </div>
+    </body>
+</html>
